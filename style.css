@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&family=Nunito:ital,wght@0,300;0,400;1,300;1,400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    text-decoration: none;
+    scroll-behavior: smooth;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(180deg, #D28080 0%, rgba(42, 202, 173, 0.54) 100%);
+}
+
+.pagina{
+    position: relative;
+    margin: auto;
+    height: 100vh;
+    width: 100vw;
+    max-width: 1980px;
+}
+
+.cabecalho{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.cabecalho h1{
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: calc(20px + 6vmin);
+    color: #FFFFFF;
+
+}
+
+.cabecalho h2{
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 300;
+    font-size: calc(10px + 2vmin);
+    color: #FFFFFF;
+}
+
+.conteudo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+.container-calc{
+    display: flex;
+    flex-direction: column;
+    height: 75vmin;
+    width: 160vmin;
+    background: #00000027;
+    border-radius: 70px;
+}
+
+.linha1-calc{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-items: center;
+    align-items: center;
+}
+
+.container-1temp{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.container-1temp h3{
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    color: #FFFFFF;
+    font-size: calc(15px + 3vmin);
+}
