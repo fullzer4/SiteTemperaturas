@@ -16,6 +16,21 @@
     </div>
     <div class="conteudo">
       <div class="container-calc">
+        <select name="temp1" id="temp1">
+          <option value=""></option>
+          <option value="celcius1">Celcius</option>
+          <option value="fahrenheit1" selected>Fahrenheit</option>
+          <option value="kelvin1">Kelvin</option>
+        </select>
+        <select name="temp2" id="temp2">
+          <option value=""></option>
+          <option value="celcius2">Celcius</option>
+          <option value="fahrenheit2" selected>Fahrenheit</option>
+          <option value="kelvin2">Kelvin</option>
+        </select>
+        <input type="number" id="temperatura">
+        <input type="button" value="Calcular" onclick="calcular()" class="botao">
+        <input type="number" readonly id="resposta">
       </div>
     </div>
   </div>
