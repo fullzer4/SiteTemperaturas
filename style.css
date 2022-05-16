@@ -47,6 +47,7 @@ body{
 }
 
 .conteudo{
+    margin-top: 60px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -56,13 +57,15 @@ body{
 .container-calc{
     display: flex;
     flex-direction: column;
-    height: 75vmin;
-    width: 130vmin;
+    height: 65vmin;
+    width: 125vmin;
     background: #00000027;
     border-radius: 70px;
     align-items: center;
     justify-content: center;
+    gap: 40px;
 }
+
 .linha1{
     display: flex;
     flex-direction: row;
@@ -162,10 +165,59 @@ body{
     color: #FFFFFF;
 }
 
+#temperatura{
+    display: block;
+    height: 6vmin;
+    width: 10vmin;
+    border-radius: 10px;
+    border: none;
+    background: #0000001b;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 300;
+    font-size: calc(10px + 1.5vmin);
+    color: #FFFFFF;
+    text-align: center;
+    appearance: none;
+}
+
 .linha3{
     display: flex;
     flex-direction: row;
     width: 100%;
     align-items: center;
     justify-content: center;
+    gap: 20px;
+}
+
+.botao{
+    display: block;
+    height: 6vmin;
+    width: 18vmin;
+    border-radius: 10px;
+    border: none;
+    background: #0000001b;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 300;
+    font-size: calc(10px + 1.5vmin);
+    color: #FFFFFF;
+    text-align: center;
+    appearance: none;
+}
+
+#resposta{
+    display: block;
+    height: 6vmin;
+    width: 38vmin;
+    border-radius: 10px;
+    border: none;
+    background: #0000001b;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 300;
+    font-size: calc(10px + 1.5vmin);
+    color: #ffffff;
+    text-align: center;
+    appearance: none;
 }
