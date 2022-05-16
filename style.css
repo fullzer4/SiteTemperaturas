@@ -36,7 +36,6 @@ body{
     font-weight: 400;
     font-size: calc(20px + 6vmin);
     color: #FFFFFF;
-
 }
 
 .cabecalho h2{
@@ -61,4 +60,112 @@ body{
     width: 130vmin;
     background: #00000027;
     border-radius: 70px;
+    align-items: center;
+    justify-content: center;
+}
+.linha1{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.temp1-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.temp1-box h3{
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 300;
+    font-size: calc(15px + 4vmin);
+    color: #FFFFFF;
+}
+
+.temp2-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.temp2-box h3{
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 300;
+    font-size: calc(15px + 4vmin);
+    color: #FFFFFF;
+}
+
+#temp{
+    -webkit-appearance:none;
+    -moz-appearance:none;
+    -ms-appearance:none;
+    appearance:none;
+    outline:0;
+    box-shadow:none;
+    border:0!important;
+}
+
+#temp1{
+    display: block;
+    height: 8vmin;
+    width: 20vmin;
+    border-radius: 10px;
+    border: none;
+    background: #0000001b;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 300;
+    font-size: calc(10px + 1.5vmin);
+    color: #FFFFFF;
+}
+
+#temp1 option{
+    background: #1e1c1c63;
+    border: none!important;
+    display: block;
+    align-items: center;
+}
+
+#temp2{
+    display: block;
+    height: 8vmin;
+    width: 20vmin;
+    border-radius: 10px;
+    border: none;
+    background: #0000001b;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 300;
+    font-size: calc(10px + 1.5vmin);
+    color: #FFFFFF;
+}
+
+
+.linha2{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.linha2 h4{
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 300;
+    font-size: calc(12px + 3vmin);
+    color: #FFFFFF;
+}
+
+.linha3{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
 }
